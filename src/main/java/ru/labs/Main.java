@@ -8,7 +8,7 @@ public class Main {
         circle.calculateSquare();
         Figure rectangle = new Rectangle(12.6, 10.11);
         rectangle.calculateSquare();
-        Figure triangle = new Triangle(12.1, 7.5);
+        Figure triangle = new Triangle(12.1, 7.5, 6.6);
         triangle.calculateSquare();
         Geometry geometry = new Geometry();
         geometry.addElement(circle);
